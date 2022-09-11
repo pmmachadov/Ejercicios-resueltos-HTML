@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  font-family: arial,sans-serif;
+  font-size: 16px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 50%;
+}
+
+main {
+  margin: 1em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+}
+
+.table-responsive {
+  max-width: 60%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 2px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+}
+
+#logo {
+  padding: 1em;
+  background-color: black;
+}
+
+#logo a {
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo_img {
+  height: 4em;
+  border-radius: 2em;
+}
+
+.logo_text {
+  padding-left: 0.25em;
+  font-size: 3em;
+  margin: 0;
+  color: white;
+}
+
+.menu .menu_items {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-inline-start: 0;
+  gap: 0.75em;
+}
+
+.menu .menu_items li {
+  margin: 0.5em 0;
+}
+
+.menu .menu_items li a {
+  background-color: firebrick;
+  padding: 0.5em 1em;
+  color: white;
+  border-radius: 0.75em;
+  font-weight: bold;
+}
+
+.menu .menu_items li a:hover {
+  background-color: black;
+}
+
+.highlights-news {
+  margin: 2em 0;
+  padding: 1em 0;
+  background: ghostwhite;
+}
+
+.highlights-news ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.highlights-news ul li a {
+  color: firebrick;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 0.25em;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: 0px;
+  font-style: italic;
+}
+
+.news article {
+  margin-bottom: 2em;
+}
+
+.news .image_news {
+  text-align: center;
+}
+
+.news .text_news {
+  margin: 0 2em;
+}
+
+.contact {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.contact input[type=text], select, textarea {
+  width: 96%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.contact input[type=submit] {
+  background-color: #ba0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+  background-color: #ba0000;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+  .contact .column, input[type=submit] {
+    width: 96%;
+    margin-top: 0;
+  }
+}

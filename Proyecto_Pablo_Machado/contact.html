@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/favicon.png"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    </article>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+          <a href="./index.html">
+            <img
+              class="logo_img"
+              src="./assets/images/logo.jpg"
+              alt="World News Now"
+            />
+            <h1 class="logo_text">World News Now</h1>
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu_items">
+            <li><a href="./index.html">HOME</a></li>
+            <li><a href="./section1/index.html">FUTURE</a></li>
+            <li><a href="./section4/index.html">TRAVEL</a></li>
+            <li><a href="./section3/index.html">CLIMATE CHANGE</a></li>
+            <li><a href="./section2/index.html">TECH</a></li>
+            <li><a href="./contact.html">CONTACT US</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <h2 class="title">Contact Us</h2>
+          <h3 class="subtitle">Swing by for a cup of coffee, or leave us a message:</h3>
+        </section>
+        <section class="contact">
+            <div class="row">
+                <div class="column">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1005.6224307626933!2d2.1743049018742675!3d41.40347442299878!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ses!4v1662806536206!5m2!1sen!2ses"
+                        title="map" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="column">
+                    <form action="/contacto.php">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </section>
+      </main>
+    
+      <footer>
+        <p>
+          Author:
+          <a href="mailto:pmmachadov@gmail.com"
+            >Pablo Machado: pmmachadov@gmail.com</a
+          >
+        </p>
+        <p>Updated: <time datetime="2021-06-01">September 15, 2022</time></p>
+      </footer>
+</body>
+
+</html>
