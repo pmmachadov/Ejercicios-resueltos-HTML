@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline;
+  }
+  
+  ul li a {
+    float: left;
+    text-decoration: none;
+    font: bold 24px helvetica, sans-serif;
+    color: #b61515;
+    padding: 0 20px;
+  }
+  
+  ul li:hover > a  {
+    color: rgb(0, 0, 0);
+  }
+  
+  ul ul {
+    position: absolute;
+    left: -9999px; 
+  }
+  
+  ul li:hover ul{
+    padding: 20px 0px;
+    left: 0;
+  }

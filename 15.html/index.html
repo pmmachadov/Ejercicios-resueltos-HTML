@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+</head>
+
+<body>
+    <h2>Rellena tu CV</h2>
+
+    <form action="./pagina_de_proceso.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="provincia"><strong>Provincia</strong></label> <br />
+            <select id="provincia" name="provincia">
+                <option value="01">Álava/Araba</option>
+                <option value="02">Albacete</option>
+                <option value="03">Alicante/Alacant</option>
+                <option value="04">Almería</option>
+                <option value="05">Ávila</option>
+                <option value="06">Badajoz</option>
+                <option value="07">Baleares, Illes</option>
+                <option value="08">Barcelona</option>
+                <option value="09">Burgos</option>
+                <option value="10">Cáceres</option>
+                <option value="11">Cádiz</option>
+                <option value="12">Castellón/Castelló</option>
+                <option value="13">Ciudad Real</option>
+                <option value="14">Córdoba</option>
+                <option value="15">Coruña, A</option>
+                <option value="16">Cuenca</option>
+                <option value="17">Girona</option>
+                <option value="18">Granada</option>
+                <option value="19">Guadalajara</option>
+                <option value="20">Gipuzkoa</option>
+                <option value="21">Huelva</option>
+                <option value="22">Huesca</option>
+                <option value="23">Jaén</option>
+                <option value="24">León</option>
+                <option value="25">Lleida</option>
+                <option value="26">Rioja, La</option>
+                <option value="27">Lugo</option>
+                <option value="28">Madrid</option>
+                <option value="29">Málaga</option>
+                <option value="30">Murcia</option>
+                <option value="31">Navarra</option>
+                <option value="32">Ourense</option>
+                <option value="33">Asturias</option>
+                <option value="34">Palencia</option>
+                <option value="35">Palmas, Las</option>
+                <option value="36">Pontevedra</option>
+                <option value="37">Salamanca</option>
+                <option value="38">Santa Cruz de Tenerife</option>
+                <option value="39">Cantabria</option>
+                <option value="40">Segovia</option>
+                <option value="41">Sevilla</option>
+                <option value="42">Soria</option>
+                <option value="43">Tarragona</option>
+                <option value="44">Teruel</option>
+                <option value="45">Toledo</option>
+                <option value="46">Valencia/València</option>
+                <option value="47">Valladolid</option>
+                <option value="48">Bizkaia</option>
+                <option value="49">Zamora</option>
+                <option value="50">Zaragoza</option>
+                <option value="51">Ceuta</option>
+                <option value="52">Melilla</option>
+            </select>
+            <br />
+            <label for="fechaDia"><strong>Fecha de nacimiento</strong></label>
+            <br />
+            <input type="text" size="2" maxlength="2" id="fechaDia" name="fechaDia" />
+            de
+            <select id="fecha_mes" name="fecha_mes" placeholder="Fecha">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+            </select>
+            de
+            <input type="text" size="6" maxlength="4" id="fecha_anio" name="fecha_anio" placeholder="Fecha" />
+            <br />
+            <label for="temasDeInteres"><strong>Temas de interés</strong></label>
+            <br />
+            <select multiple="multiple" size="15" id="temasDeInteres" name="temasDeInteres">
+                <option value="a100">Sistemas y Métodos</option>
+                <option value="a101">Análisis Matemático I</option>
+                <option value="a102">Sistemas Digitales I</option>
+                <option value="a103">Introducción a la Programación</option>
+                <option value="a104">Derecho Aplicado a la Informática</option>
+                <option value="a105">Álgebra</option>
+                <option value="a106">Análisis Matemático II</option>
+                <option value="a107">Arquitectura de Computadores</option>
+                <option value="a108">Base de Datos</option>
+                <option value="a109">Estructura de Datos y Algoritmos</option>
+                <option value="a110">Introducción a la Ingeniería del Software</option>
+                <option value="a111">Introducción a las Comunicaciones</option>
+                <option value="a112">Sistemas Operativos</option>
+                <option value="a113">Laboratorio I</option>
+                <option value="a114">Análisis de Sistemas</option>
+                <option value="a115">Probabilidad y Estadística</option>
+                <option value="a116">Laboratorio II</option>
+                <option value="a117">Álgebra Lineal</option>
+                <option value="a118">Diseño de Sistemas</option>
+                <option value="a119">Física I</option>
+                <option value="a120">Laboratorio IV</option>
+                <option value="a121">Laboratorio III</option>
+                <option value="a122">Auditoría de Sistemas</option>
+                <option value="a123">Matemática para Ingeniería IIIa</option>
+                <option value="a124">Química General</option>
+                <option value="a125">Física II</option>
+                <option value="a126">Sistemas de Representación</option>
+                <option value="a127">Administración de Proyectos</option>
+                <option value="a128">Higiene, Seguridad y Ecología</option>
+                <option value="a129">Lenguajes formales y autómatas finitos</option>
+                <option value="a130">Laboratorio V</option>
+                <option value="a131">Cálculo Numérico</option>
+                <option value="a132">Análisis de la Información y la Decisión</option>
+                <option value="a133">Planeamiento Estratégico</option>
+                <option value="a134">Proyecto de Investigación I</option>
+                <option value="a135">Seguridad en Redes</option>
+                <option value="a136">Fundamentos de Economía y Finanzas</option>
+                <option value="a137">Inteligencia Artificial</option>
+                <option value="a138">Práctica Profesional Supervisada</option>
+                <option value="a139">Teoría de la Información</option>
+                <option value="a140">Modelos y Simulación</option>
+                <option value="a141">Trabajo Final de Grado</option>
+                <option value="a142">Proyecto de Investigación II</option>
+                <option value="a143">Sistemas Distribuidos</option>
+                <option value="a144">Sistemas de Información</option>
+                <option value="a145">Sistemas de Información Geográfica</option>
+                <option value="a146">Sistemas de Información Gerencial</option>
+                <option value="a147">Sistemas de Información para la Gestión de la Calidad</option>
+                <option value="a148">Sistemas de Información para la Gestión de la Producción</option>
+                <option value="a149">Sistemas de Información para la Gestión de Recursos Humanos</option>
+                <option value="a150">Sistemas de Información para la Gestión de Ventas</option>
+                <option value="a151">Sistemas de Información para la Gestión Financiera</option>
+                <option value="a152">Sistemas de Información para la Gestión de la Cadena de Suministro</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
