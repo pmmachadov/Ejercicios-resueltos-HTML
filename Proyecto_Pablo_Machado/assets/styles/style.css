@@ -142,6 +142,7 @@ th {
 
 .news .text_news {
   margin: 0 2em;
+  text-align: justify;
 }
 
 .contact {
